@@ -1,0 +1,12 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["dom", "esnext"],
+    "paths": {
+      "src/*": ["./src/*"],
+      "components/*": ["./src/components/*"],
+      "pages/*": ["./src/pages/*"]
+    }
+  }
+}
